@@ -11,25 +11,42 @@ class Calculator extends Component {
                         <h1> <strong>CUOTA</strong></h1>
                     </Col>
                 </Row>
+
+                <div style={{
+                    display:'flex',
+                    background:'black', 
+                    color:'white',
+                    height:'100%', 
+                    alignItems:'center',
+                    justifyContent:'center'}}>
                 <Row className="justify-content-md-center">
-                    <Col md="2">
+                    <Col md="auto">
                         <label className="col-form-label" for="inputDefault">Cuota Fija</label>
                         <h3>$600 MXN</h3>
                     </Col>
 
-                    <Col md="1">
+                    <Col md="auto">
                     <img src={sumImg}/>
                     </Col>
 
-                    <Col md="3">
-                        <div className="form-group">
+                    <Col md="auto">
+                        <div style={{
+                            alignItem:'center',
+                            justifyContent:'center',   
+                        }} className="form-group">
                             <label class="col-form-label" for="inputDefault"></label>
-                            <input type="text" className="form-control" placeholder="Default input" id="inputDefault" />
+                            <input type="text" className="form-control" placeholder="0" id="inputDefault" />
+                            <button style={{
+                                marginTop:'10px',
+                                alignContent:'center',
+                            justifyItems:'center',
+                            position:'relative'  
+                            }} type="button" class="btn btn-warning">Iniciar</button>
                         </div>
                     </Col>
 
-                    <Col md="1">
-                    <img src={sumImg}/>
+                    <Col md="auto">
+                    <img src={equalImg}/>
                     </Col>
 
                     <Col md="auto">
@@ -37,6 +54,8 @@ class Calculator extends Component {
                         <h3>total</h3>
                     </Col>
                 </Row>
+                </div>
+
             </div>
 
         );
