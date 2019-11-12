@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import sumImg from '../assets/images/Group10.png';
 import equalImg from '../assets/images/Group5.png';
 import { Row, Col } from 'react-bootstrap';
+
+function calculoCuota(cuota){
+    var cuotaFija = 695;
+    var suma = <h3>${cuotaFija+cuota}</h3>;
+    return suma;
+}
 class Calculator extends Component {
     render() {
         return (
@@ -51,7 +57,7 @@ class Calculator extends Component {
 
                     <Col md="auto">
                         <label className="col-form-label" for="inputDefault">Pago Mensual</label>
-                        <h3>total</h3>
+
                     </Col>
                 </Row>
                 </div>

@@ -6,6 +6,7 @@ import Menu from './components/Menu';
 import WebCard from './components/WebCard';
 import Calculator from './components/Calculator';
 import Footer from './components/Footer'
+import Contact from './components/Contact'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
           <Calculator/>
         </div>
         <div className="contact">
-
+        <Contact/>
         </div>
         <div className="Web-Footer">
           <footer>
