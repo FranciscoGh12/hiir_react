@@ -4,6 +4,7 @@ import './App.css';
 import './assets/css/hiir.css'
 import Menu from './components/Menu';
 import WebCard from './components/WebCard';
+import Calculator from './components/Calculator';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
         <card className="Web-Card">
           <WebCard/>
         </card>
+        <div className="cuota">
+          <Calculator/>
+        </div>
       </div>
     </div>
   );
