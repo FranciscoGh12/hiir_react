@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import logoNav from '../assets/images/Logo_principal.png'
 import Nav from 'react-bootstrap/Nav';
-import { NavDropdown } from 'react-bootstrap';
 
 class Menu extends Component {
     render() {
@@ -22,7 +21,7 @@ class Menu extends Component {
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
 
                     <Nav>
-                        <Nav.Link href="#deets">Acceso a clientes</Nav.Link>
+                        <Nav.Link href="https://admin.hiit.io">Acceso a clientes</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

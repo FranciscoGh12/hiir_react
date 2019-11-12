@@ -5,6 +5,7 @@ import './assets/css/hiir.css'
 import Menu from './components/Menu';
 import WebCard from './components/WebCard';
 import Calculator from './components/Calculator';
+import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -22,6 +23,14 @@ function App() {
         </card>
         <div className="cuota">
           <Calculator/>
+        </div>
+        <div className="contact">
+
+        </div>
+        <div className="Web-Footer">
+          <footer>
+          <Footer/>
+          </footer>
         </div>
       </div>
     </div>
